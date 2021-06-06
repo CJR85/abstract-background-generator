@@ -12,5 +12,10 @@ function generate() {
     translateX: function () {
       return anime.random(-700, 700);
     },
+    translateY: function () {
+      return anime.random(-700, 700);
+    },
   });
 }
+
+generate();
